@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<settings>
+  <connection>
+    <driver>{SQL Server}</driver>
+    <server>192.168.0.41</server>
+    <uid>SA</uid>
+    <pwd>#Legacy1550</pwd>
+    <connectionsdatabase>CashReport_Code_Connections</connectionsdatabase>
+    <rawDataDatabase>CashReport_Data_Raw</rawDataDatabase>
+    <mappedDataDatabase>CashReport_Data_Mapped</mappedDataDatabase>
+    <calculatedDataDatabase>CashReport_Data_Calculated</calculatedDataDatabase>
+    <mappingInfoDatabase>CashReport_Code_Mappings</mappingInfoDatabase>
+    <logsDatabase>CashReport_Data_Logs</logsDatabase>
+  </connection>
+  <CashReport_Code_Connection_Table_Names>
+    <DataSources>Data_Sources</DataSources>
+    <ConnectionTypes>Connection_Types</ConnectionTypes>
+    <FTPConnections>FTP_Connections</FTPConnections>
+    <ODBCConnections>ODBC_Connections</ODBCConnections>
+  </CashReport_Code_Connection_Table_Names>
+  <Logging>
+    <Console>
+      <Info>true</Info>
+      <Debug>false</Debug>
+      <Warn>true</Warn>
+      <Error>true</Error>
+      <Fatal>true</Fatal>
+    </Console>
+    <File>
+      <Info>false</Info>
+      <Debug>false</Debug>
+      <Warn>false</Warn>
+      <Error>false</Error>
+      <Fatal>false</Fatal>
+    </File>
+    <Database>
+      <Info>true</Info>
+      <Debug>true</Debug>
+      <Warn>true</Warn>
+      <Error>true</Error>
+      <Fatal>true</Fatal>
+    </Database>
+    <EventLog>
+      <Info>true</Info>
+      <Debug>true</Debug>
+      <Warn>true</Warn>
+      <Error>true</Error>
+      <Fatal>true</Fatal>
+    </EventLog>
+  </Logging>
+</settings>
